@@ -1,6 +1,7 @@
 package com.dwasearch.crawler;
 
 import com.dwasearch.crawler.model.*;
+import com.dwasearch.model.DataSnapshot;
 import com.dwasearch.model.players.Country;
 import com.dwasearch.model.results.Competition;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -15,7 +16,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.URI;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -25,9 +25,15 @@ import java.util.List;
 public class DataCrawler {
     public static void main(String[] args) throws Exception {
         final Path outputPath = Path.of("data.json");
+        final String eventsURL = "https://api.worldaquatics.com/fina/competitions/5019/events";
+        final String playersURL = "https://api.worldaquatics.com/fina/competitions/5019/athletes";
+
         //创建DataSnapshot, Source对象，准备保存数据快照的比赛名称、时间等信息，为后面的序列化做准备
         DataSnapshot dataSnapshot = new DataSnapshot();
         Source source = new Source();
+        source.setEventsURL(eventsURL);
+        source.setPlayersURL(playersURL);
+
         //先向该api发送请求，api将返回含有所有需要的events的基本信息的json
         String eventsURI = source.getEventsURL();
         HttpClient client = HttpClient.newHttpClient();

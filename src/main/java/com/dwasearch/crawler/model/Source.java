@@ -8,9 +8,9 @@ public class Source {
     @JsonProperty("Event")
     private String event;
     @JsonProperty("EventsURL")
-    private String eventsURL = "https://api.worldaquatics.com/fina/competitions/5019/events";
+    private String eventsURL;
     @JsonProperty("PlayersURL")
-    private String playersURL = "https://api.worldaquatics.com/fina/competitions/5019/athletes";
+    private String playersURL;
     @JsonProperty("PlayersFetchedAt")
     private Instant playersFetchedAt;
     @JsonProperty("ResultsFetchedAt")

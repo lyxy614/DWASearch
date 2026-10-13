@@ -1,5 +1,6 @@
-package com.dwasearch.crawler.model;
+package com.dwasearch.model;
 
+import com.dwasearch.crawler.model.Source;
 import com.dwasearch.model.players.Country;
 import com.dwasearch.model.results.Competition;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -9,7 +10,7 @@ import java.util.List;
 public class DataSnapshot {
     @JsonProperty("Source")
     private Source source;
-    @JsonProperty("Players")
+    @JsonProperty("Countries")
     private List<Country> countries;
     @JsonProperty("Competitions")
     private List<Competition> competitions;

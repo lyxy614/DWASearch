@@ -3,10 +3,10 @@
     "Event": "World Aquatics Diving World Cup 2026 - Super Final",
     "EventsURL": "https://api.worldaquatics.com/fina/competitions/5019/events",
     "PlayersURL": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
-    "PlayersFetchedAt": "2026-10-08T08:41:34.669105700Z",
-    "ResultsFetchedAt": "2026-10-08T08:41:33.442420900Z"
+    "PlayersFetchedAt": "2026-10-13T06:06:07.962229900Z",
+    "ResultsFetchedAt": "2026-10-13T06:06:04.902091600Z"
   },
-  "Players": [
+  "Countries": [
     {
       "Participations": [
         {
