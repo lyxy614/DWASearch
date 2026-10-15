@@ -10,7 +10,7 @@ public class Player {
     @JsonProperty("PreferredFirstName")
     private String firstName;
     @JsonProperty("Gender")
-    private int gender;
+    private Integer gender;
     @JsonProperty("NAT")
     private String country;
 
@@ -26,10 +26,10 @@ public class Player {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-    public int getGender() {
+    public Integer getGender() {
         return gender;
     }
-    public void setGender(int gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
     public String getCountry() {

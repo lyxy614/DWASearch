@@ -1,4 +1,4 @@
-package com.dwasearch.query.service;
+package com.dwasearch.query.util;
 
 import com.dwasearch.model.DataSnapshot;
 import org.junit.jupiter.api.DisplayName;
@@ -12,13 +12,12 @@ import java.nio.file.Paths;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DWADataTest {
-    DWAData dwaData;
+    DWAData dwaData =  new DWAData();
 
     @Test
     @DisplayName("读取data.json应正确加载快照")
     void readData() throws IOException {
-        this.dwaData = new DWAData(Paths.get("data.json"));
-        DataSnapshot dataSnapshot = dwaData.readData();
+        DataSnapshot dataSnapshot = dwaData.readData(Paths.get("data.json"));
 
         //检查dataSnapshot下的字段是否为空
         assertNotNull(dataSnapshot);
@@ -33,8 +32,8 @@ class DWADataTest {
     @Test
     @DisplayName("读取错误文件路径时应抛出IOException")
     void readDataByWrongPath() throws IOException {
-        this.dwaData = new DWAData(Paths.get("dwa.json"));
-        assertThrows(IOException.class, () -> this.dwaData.readData());
+        Path tmp = Paths.get("dwa.json");
+        assertThrows(IOException.class, () -> this.dwaData.readData(tmp));
     }
 
     @Test
@@ -49,8 +48,7 @@ class DWADataTest {
         }
         """);
 
-        this.dwaData = new DWAData(tmp);
-        assertThrows(IOException.class, () -> this.dwaData.readData());
+        assertThrows(IOException.class, () -> dwaData.readData(tmp));
 
         Files.deleteIfExists(tmp);
     }

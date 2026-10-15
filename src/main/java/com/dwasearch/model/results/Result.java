@@ -12,13 +12,13 @@ public class Result {
     @JsonProperty("Dives")
     private List<Dive> dives;
     @JsonProperty("Rank")
-    private int rank;
+    private Integer rank;
     @JsonProperty("NAT")
     private String country;
     @JsonProperty("FullName")
     private String fullName;
     @JsonProperty("Gender")
-    private int gender;
+    private Integer gender;
 
     public String getTotalPoints() {
         return totalPoints;
@@ -26,10 +26,10 @@ public class Result {
     public void setTotalPoints(String totalPoints) {
         this.totalPoints = totalPoints;
     }
-    public int getRank() {
+    public Integer getRank() {
         return rank;
     }
-    public void setRank(int rank) {
+    public void setRank(Integer rank) {
         this.rank = rank;
     }
     public List<Dive> getDives() {
@@ -50,10 +50,10 @@ public class Result {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-    public int getGender() {
+    public Integer getGender() {
         return gender;
     }
-    public void setGender(int gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
 }

@@ -1,4 +1,4 @@
-package com.dwasearch.query.service;
+package com.dwasearch.query.util;
 
 import com.dwasearch.model.DataSnapshot;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -11,13 +11,7 @@ import java.nio.file.Path;
 
 public class DWAData {
 
-    private final Path dataPath;
-
-    public DWAData(Path dataPath) {
-        this.dataPath = dataPath;
-    }
-
-    public DataSnapshot readData() throws IOException {
+    public DataSnapshot readData(Path dataPath) throws IOException {
         ObjectMapper mapper = JsonMapper.builder()
                 .addModule(new JavaTimeModule())
                 .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
