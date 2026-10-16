@@ -17,6 +17,7 @@ public class DWASearch {
         try {
             dwaSearch.checkArgs(args);
         }catch (IllegalArgumentException e) {
+            System.err.println("命令行参数错误：" + e.getMessage());
             System.exit(1);
         }
 
@@ -37,11 +38,18 @@ public class DWASearch {
             System.err.println("data.json数据不完整：" + e.getMessage());
         }
 
+        //按行读取input.txt中的命令，并交给CommandProcessor类处理
+        //从中获取到应该输出的内容并调用CoreModule中的方法完成输出
+
     }
-    public void checkArgs (String[] args){
+    void checkArgs (String[] args){
         if (args.length != 2) {
-            System.err.println("命令行参数数量错误，应为2");
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("命令行参数数量错误，应为2");
+        }
+        for (String arg : args) {
+            if (!arg.endsWith(".txt")){
+                throw new IllegalArgumentException("命令行参数中的文件类型错误，应为.txt文件");
+            }
         }
     }
 }
