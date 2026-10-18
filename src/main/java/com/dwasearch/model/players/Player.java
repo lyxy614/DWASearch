@@ -38,12 +38,4 @@ public class Player {
     public void setCountry(String country) {
         this.country = country;
     }
-
-    //Player的输出预处理
-    public String toString(){
-        String genderString = gender == 0 ? "Male" : "Female";
-        return "Full Name:" + lastName + " " + firstName + "\n"
-                + "Gender:" + genderString + "\n"
-                + "Country:" + country;
-    }
 }

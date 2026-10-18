@@ -82,11 +82,13 @@ public class SnapshotValidator {
                     throw new InvalidDataException("Exists competition which has empty heats");
                 }
                 else {
+                    boolean containsFinals = false; //标记决赛数据是否有找到
                     for (Heat heat : heats) {
                         if (heat.getPhaseName() == null){
                             throw new InvalidDataException("Exists competition's heat which has null phase name");
                         }
                         else if (heat.getPhaseName().equals("Finals")) {
+                            containsFinals = true;
                             List<Result> results = heat.getResults();
                             if (results.isEmpty()) {
                                 throw new InvalidDataException("Exists competition's heat which has empty results");
@@ -124,6 +126,9 @@ public class SnapshotValidator {
                                 }
                             }
                         }
+                    }
+                    if (!containsFinals) {
+                        throw new InvalidDataException(competition.getDisciplineName() + " does not contain \"Finals\"");
                     }
                 }
             }

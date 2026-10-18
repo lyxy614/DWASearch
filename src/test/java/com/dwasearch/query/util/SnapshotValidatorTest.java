@@ -26,7 +26,7 @@ class SnapshotValidatorTest {
 
     @Test
     @DisplayName("读取正常数据validate()不能抛出异常")
-    void validate_valid() throws IOException {
+    void validate_normal() throws IOException {
         DataSnapshot dataSnapshot = loadDataSnapshot("data.json");
         assertDoesNotThrow(()->snapshotValidator.validate(dataSnapshot));
     }
@@ -59,6 +59,13 @@ class SnapshotValidatorTest {
 
     //测试validateCompetitions方法
     @Test
+    @DisplayName("读取正常数据validateCompetitions不能抛出异常")
+    void validateCompetitions_normal() throws IOException {
+        DataSnapshot dataSnapshot = loadDataSnapshot("data.json");
+        assertDoesNotThrow(()->snapshotValidator.validateCompetitions(dataSnapshot));
+    }
+
+    @Test
     @DisplayName("比赛数量不对需抛出InvalidDataException")
     void validateCompetitions_wrongCompetitionNum() throws IOException {
         DataSnapshot dataSnapshot = loadDataSnapshot("data.json");
@@ -81,6 +88,15 @@ class SnapshotValidatorTest {
     void validateCompetitions_nullPhaseName() throws IOException {
         //competition_null_phase.json 中删去最后一个比赛的heat的phaseName
         DataSnapshot dataSnapshot = loadDataSnapshot("competition_null_phase.json");
+        assertThrows(InvalidDataException.class,
+                () -> snapshotValidator.validateCompetitions(dataSnapshot));
+    }
+
+    @Test
+    @DisplayName("存在Competition的决赛阶段数据丢失，抛出InvalidDataException")
+    void validateCompetitions_missingFinals() throws IOException {
+        //competition_missing_Finals.json中删去了第一个比赛的Heats下的Finals
+        DataSnapshot dataSnapshot = loadDataSnapshot("competition_missing_Finals.json");
         assertThrows(InvalidDataException.class,
                 () -> snapshotValidator.validateCompetitions(dataSnapshot));
     }

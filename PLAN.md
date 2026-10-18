@@ -35,4 +35,5 @@ DWASearch, DWAData, CoreModule, ...
 并处理需排序数据的输出顺序。
 
 目前已实现：
-1. 输出players（测试尚在补充当中）
+1. 输出players
+2. 输出results（测试尚未开始）
