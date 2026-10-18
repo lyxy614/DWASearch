@@ -1,9 +1,10 @@
-package com.dwasearch.query.util;
+package com.dwasearch.query.service;
 
 import com.dwasearch.model.DataSnapshot;
 import com.dwasearch.model.players.*;
 import com.dwasearch.query.TestData;
-import com.dwasearch.query.service.CoreModule;
+import com.dwasearch.query.util.DWAData;
+import com.dwasearch.query.util.OutputFormatter;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
