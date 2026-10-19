@@ -24,6 +24,6 @@ public class OutputFormatter {
         }
         return "Full Name:" + result.getFullName() + "\n"
                 + "Rank:" + result.getRank() + "\n"
-                + "Score:" + divePoints + result.getTotalPoints() + "\n";
+                + "Score:" + divePoints + " = " + result.getTotalPoints();
     }
 }

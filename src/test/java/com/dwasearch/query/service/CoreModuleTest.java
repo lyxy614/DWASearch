@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -22,7 +23,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CoreModuleTest {
     CoreModule coreModule;
+    private static final List<String> disciplineNameList = List.of(
+            "Women's 3m Springboard",   //单人项目
+            "Men's 10m Synchronised",   //双人项目
+            "Mixed 3m & 10m Team"       //多人项目
+    );
 
+    //outputPlayers和outputResults均按照输出格式、数据一致性、输出顺序的顺序来测试
     @Test
     @DisplayName("读取到完整数据应按照规定的格式输出到文本文件")
     //核对全部players输出的格式
@@ -31,8 +38,8 @@ class CoreModuleTest {
         DataSnapshot dataSnapshot = TestData.loadDataSnapshot("data.json");
         coreModule = new CoreModule(dataSnapshot);
         //输出到临时文件再读取输出
-        Path testPath = Files.createTempFile("formatOutput", ".txt");
-        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8, StandardOpenOption.APPEND)) {
+        Path testPath = Files.createTempFile("formatOutput_players", ".txt");
+        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8)) {
             coreModule.outputPlayers(writer);
         }
 
@@ -74,7 +81,7 @@ class CoreModuleTest {
         coreModule = new CoreModule(standardDataSnapshot);
         //输出到临时文件再读取输出
         Path testPath = Files.createTempFile("sameOutput", ".txt");
-        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8, StandardOpenOption.APPEND)) {
+        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8)) {
             coreModule.outputPlayers(writer);
         }
         String content = Files.readString(testPath, StandardCharsets.UTF_8);
@@ -107,12 +114,85 @@ class CoreModuleTest {
 
         //输出到临时文件再读取输出
         Path testPath = Files.createTempFile("rightOrder", ".txt");
-        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8, StandardOpenOption.APPEND)) {
+        try (BufferedWriter writer = Files.newBufferedWriter(testPath, StandardCharsets.UTF_8)) {
             coreModule.outputPlayers(writer);
         }
         String content = Files.readString(testPath, StandardCharsets.UTF_8);
         assertFalse(content.isEmpty());
 
         assertEquals(content, standard_players);
+    }
+
+    //各抽一个单人项目、双人项目和多人项目来测试
+    @Test
+    @DisplayName("读取到完整数据应按照规定的格式输出到文本文件")
+    void outputResults_normal_format() throws IOException {
+        DataSnapshot dataSnapshot = TestData.loadDataSnapshot("data.json");
+        coreModule = new CoreModule(dataSnapshot);
+
+        //用StringWriter来测试
+        for (String disciplineName : disciplineNameList) {
+            StringWriter sw = new StringWriter();
+            try (BufferedWriter writer = new BufferedWriter(sw)) {
+                coreModule.outputResults(disciplineName, writer);
+            }
+            String content = sw.toString();
+            assertFalse(content.isEmpty());
+            List<String> contentList = content.lines().toList();
+
+            for (int i = 0; i < contentList.size(); i += 4) {
+                assertTrue(contentList.get(i).startsWith("Full Name:"));
+                assertTrue(contentList.get(i + 1).startsWith("Rank:"));
+                assertTrue(contentList.get(i + 2).startsWith("Score:"));
+                assertTrue(contentList.get(i + 2).contains(" = ") && contentList.get(i + 2).contains(" + "));
+                assertEquals("-----", contentList.get(i + 3));
+            }
+        }
+    }
+
+    @Test
+    @DisplayName("读取数据快照后应输出与数据快照一致的数据")
+    void outputResults_same_dataSnapshot() throws IOException {
+        //读取原本的数据快照
+        DataSnapshot dataSnapshot = new DWAData().readData(Paths.get("data.json"));
+        coreModule = new CoreModule(dataSnapshot);
+
+        for (String disciplineName : disciplineNameList) {
+            StringWriter sw = new StringWriter();
+            try (BufferedWriter writer = new BufferedWriter(sw)) {
+                coreModule.outputResults(disciplineName, writer);
+            }
+            String content = sw.toString();
+            assertFalse(content.isEmpty());
+
+            String standard_results = TestData.loadResourceAsString("standard_" + disciplineName + ".txt");
+            assertEquals(standard_results, content);
+        }
+    }
+
+    //不测试outputResults的升序输出，因为数据快照已经明确按照Rank升序排好序了
+
+    //简单测试一下错误信息的连续输出
+    @Test
+    @DisplayName("错误信息应按照规定格式输出")
+    void outputWrongMessages_format() throws IOException {
+        coreModule = new CoreModule(new DataSnapshot());
+
+        StringWriter sw = new StringWriter();
+        try (BufferedWriter writer = new BufferedWriter(sw)) {
+            coreModule.outputWrongMessages("Error", writer);
+            coreModule.outputWrongMessages("Error", writer);
+            coreModule.outputWrongMessages("N/A", writer);
+        }
+        String content = sw.toString();
+        assertFalse(content.isEmpty());
+        List<String> contentList = content.lines().toList();
+
+        assertEquals("Error", contentList.getFirst());
+        assertEquals("-----", contentList.get(1));
+        assertEquals("Error", contentList.get(2));
+        assertEquals("-----", contentList.get(3));
+        assertEquals("N/A", contentList.get(4));
+        assertEquals("-----", contentList.get(5));
     }
 }

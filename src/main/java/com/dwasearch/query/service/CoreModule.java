@@ -9,14 +9,15 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Iterator;
 import java.util.List;
 
 public class CoreModule {
     private final DataSnapshot dataSnapshot;
+
     public CoreModule(DataSnapshot dataSnapshot) {
         this.dataSnapshot = dataSnapshot;
     }
+
     public void outputPlayers(Writer writer) throws IOException {
         //获取所有player的信息并将所有player添加到单独的ArrayList中，便于排序输出
         List<Player> playerList = new ArrayList<>();
@@ -30,12 +31,8 @@ public class CoreModule {
                         .thenComparing(Player::getLastName);
         playerList.sort(comparator);
 
-        for (Iterator<Player> iterator = playerList.iterator(); iterator.hasNext();) {
-            Player player = iterator.next();
-            String content = OutputFormatter.formatPlayer(player) + "\n" + "-----";
-            if (iterator.hasNext()){
-                content += "\n";
-            }
+        for (Player player : playerList) {
+            String content = OutputFormatter.formatPlayer(player) + "\n" + "-----\n";
             writer.write(content);
         }
     }
@@ -58,17 +55,14 @@ public class CoreModule {
         //按照rank升序排序(同一比赛中rank不可能相同)
         results.sort(Comparator.comparing(Result::getRank));
 
-        for (Iterator<Result> iterator = results.iterator(); iterator.hasNext();) {
-            Result result = iterator.next();
-            String content = OutputFormatter.formatResult(result) + "\n" + "-----";
-            if (iterator.hasNext()){
-                content += "\n";
-            }
+        for (Result result : results) {
+            String content = OutputFormatter.formatResult(result) + "\n" + "-----\n";
             writer.write(content);
         }
     }
 
-    public static void outputWrongMessages(String message, Writer writer) throws IOException {
-
+    public void outputWrongMessages(String wrongMessage, Writer writer) throws IOException {
+        String content = wrongMessage + "\n" + "-----\n";
+        writer.write(content);
     }
 }
