@@ -28,7 +28,7 @@ DWASearch, DWAData, CoreModule, ...
 目前已实现。
 
 ## 4.CommandProcessor（命令处理类）
-将输入的命令集转化为调用输出方法的语句；识别不合法命令并指定Error / N\A输出。
+将输入的命令集转化为调用输出方法的语句；识别不合法命令并指定Error / N/A输出。
 
 ## 5.CoreModule
 核心输出逻辑。负责输出players，results和命令不合法时应输出的信息。

@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Map;
 
 public class CommandProcessor {
-    private CoreModule coreModule;
-    private Writer writer;
+    private final CoreModule coreModule;
+    private final Writer writer;
     private static final Map<String, String> StandardNameMap;
     static {
         StandardNameMap = new HashMap<>();
@@ -28,7 +28,30 @@ public class CommandProcessor {
     }
 
     //接收来自程序入口的命令集，并直接调用CoreModule类的输出方法
-    public void process(List<String> commandLines){
+    public void process(List<String> commandLines) throws IOException {
+        for (String commandLine : commandLines) {
+            if (commandLine.isBlank()) {
+                continue;
+            }
+            //将一整行命令切分为两部分来处理
+            String[] parts = commandLine.split("\\s+", 2);
+            String cmd = parts[0];
+            String arg = parts.length > 1 ? parts[1] : "";
 
+            if (cmd.equals("players") && arg.isEmpty()) {
+                coreModule.outputPlayers(writer);
+            }
+            else if (cmd.equals("result")) {
+                if (StandardNameMap.containsKey(arg)) {
+                    coreModule.outputResults(StandardNameMap.get(arg), writer);
+                }
+                else {
+                    coreModule.outputWrongMessages("N/A", writer);
+                }
+            }
+            else {
+                coreModule.outputWrongMessages("Error", writer);
+            }
+        }
     }
 }
