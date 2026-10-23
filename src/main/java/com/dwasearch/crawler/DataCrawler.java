@@ -21,7 +21,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
-//运行指令：mvn -q compile exec:java -Dexec.mainClass="com.dwaserach.crawler.DataCrawler"
+//运行指令：java -cp target/DWASearch.jar com.dwasearch.crawler.DataCrawler
 public class DataCrawler {
     public static void main(String[] args) throws Exception {
         final Path outputPath = Path.of("data.json");

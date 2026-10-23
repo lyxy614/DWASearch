@@ -3,8 +3,8 @@
     "Event": "World Aquatics Diving World Cup 2026 - Super Final",
     "EventsURL": "https://api.worldaquatics.com/fina/competitions/5019/events",
     "PlayersURL": "https://api.worldaquatics.com/fina/competitions/5019/athletes",
-    "PlayersFetchedAt": "2026-10-13T06:06:07.962229900Z",
-    "ResultsFetchedAt": "2026-10-13T06:06:04.902091600Z"
+    "PlayersFetchedAt": "2026-10-23T04:52:18.794315900Z",
+    "ResultsFetchedAt": "2026-10-23T04:52:16.703405100Z"
   },
   "Countries": [
     {
@@ -634,8 +634,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "CHEN Jia",
-              "Gender": 1
+              "FullName": "CHEN Jia"
             },
             {
               "TotalPoints": "373.05",
@@ -658,8 +657,7 @@
               ],
               "Rank": 2,
               "NAT": "CHN",
-              "FullName": "CHEN Yiwen",
-              "Gender": 1
+              "FullName": "CHEN Yiwen"
             },
             {
               "TotalPoints": "339.00",
@@ -682,8 +680,7 @@
               ],
               "Rank": 3,
               "NAT": "AUS",
-              "FullName": "KEENEY Maddison",
-              "Gender": 1
+              "FullName": "KEENEY Maddison"
             },
             {
               "TotalPoints": "294.60",
@@ -706,8 +703,7 @@
               ],
               "Rank": 4,
               "NAT": "AUS",
-              "FullName": "KOLOI Alysha",
-              "Gender": 1
+              "FullName": "KOLOI Alysha"
             }
           ]
         },
@@ -726,8 +722,7 @@
               ],
               "Rank": 1,
               "NAT": "AUS",
-              "FullName": "KEENEY Maddison",
-              "Gender": 1
+              "FullName": "KEENEY Maddison"
             },
             {
               "TotalPoints": "335.40",
@@ -741,8 +736,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "CHEN Yiwen",
-              "Gender": 1
+              "FullName": "CHEN Yiwen"
             },
             {
               "TotalPoints": "312.70",
@@ -756,8 +750,7 @@
               ],
               "Rank": 2,
               "NAT": "AUS",
-              "FullName": "KOLOI Alysha",
-              "Gender": 1
+              "FullName": "KOLOI Alysha"
             },
             {
               "TotalPoints": "338.40",
@@ -771,8 +764,7 @@
               ],
               "Rank": 2,
               "NAT": "CHN",
-              "FullName": "CHEN Jia",
-              "Gender": 1
+              "FullName": "CHEN Jia"
             },
             {
               "TotalPoints": "276.30",
@@ -786,8 +778,7 @@
               ],
               "Rank": 3,
               "NAT": "CAN",
-              "FullName": "ERLAM Margo",
-              "Gender": 1
+              "FullName": "ERLAM Margo"
             },
             {
               "TotalPoints": "308.10",
@@ -801,8 +792,7 @@
               ],
               "Rank": 3,
               "NAT": "MEX",
-              "FullName": "VAZQUEZ MONTANO Aranza",
-              "Gender": 1
+              "FullName": "VAZQUEZ MONTANO Aranza"
             }
           ]
         },
@@ -824,8 +814,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "CHEN Jia",
-              "Gender": 1
+              "FullName": "CHEN Jia"
             },
             {
               "TotalPoints": "215.15",
@@ -842,8 +831,7 @@
               ],
               "Rank": 2,
               "NAT": "AUS",
-              "FullName": "KEENEY Maddison",
-              "Gender": 1
+              "FullName": "KEENEY Maddison"
             },
             {
               "TotalPoints": "191.10",
@@ -860,8 +848,7 @@
               ],
               "Rank": 3,
               "NAT": "MEX",
-              "FullName": "VAZQUEZ MONTANO Aranza",
-              "Gender": 1
+              "FullName": "VAZQUEZ MONTANO Aranza"
             },
             {
               "TotalPoints": "189.70",
@@ -878,8 +865,7 @@
               ],
               "Rank": 4,
               "NAT": "AUS",
-              "FullName": "KOLOI Alysha",
-              "Gender": 1
+              "FullName": "KOLOI Alysha"
             },
             {
               "TotalPoints": "189.00",
@@ -896,8 +882,7 @@
               ],
               "Rank": 5,
               "NAT": "CHN",
-              "FullName": "CHEN Yiwen",
-              "Gender": 1
+              "FullName": "CHEN Yiwen"
             },
             {
               "TotalPoints": "179.10",
@@ -914,8 +899,7 @@
               ],
               "Rank": 6,
               "NAT": "MEX",
-              "FullName": "GARCIA SIXTOS Maria Fernanda",
-              "Gender": 1
+              "FullName": "GARCIA SIXTOS Maria Fernanda"
             },
             {
               "TotalPoints": "178.50",
@@ -932,8 +916,7 @@
               ],
               "Rank": 7,
               "NAT": "CAN",
-              "FullName": "ERLAM Margo",
-              "Gender": 1
+              "FullName": "ERLAM Margo"
             },
             {
               "TotalPoints": "172.50",
@@ -950,8 +933,7 @@
               ],
               "Rank": 8,
               "NAT": "RUS",
-              "FullName": "KUZINA Elizaveta",
-              "Gender": 1
+              "FullName": "KUZINA Elizaveta"
             },
             {
               "TotalPoints": "168.00",
@@ -968,8 +950,7 @@
               ],
               "Rank": 9,
               "NAT": "SUI",
-              "FullName": "HEIMBERG Michelle",
-              "Gender": 1
+              "FullName": "HEIMBERG Michelle"
             },
             {
               "TotalPoints": "165.45",
@@ -986,8 +967,7 @@
               ],
               "Rank": 10,
               "NAT": "CAN",
-              "FullName": "PALKHIVALA Sonya",
-              "Gender": 1
+              "FullName": "PALKHIVALA Sonya"
             },
             {
               "TotalPoints": "160.50",
@@ -1004,8 +984,7 @@
               ],
               "Rank": 11,
               "NAT": "COL",
-              "FullName": "ZAPATA CORREA Daniela",
-              "Gender": 1
+              "FullName": "ZAPATA CORREA Daniela"
             },
             {
               "TotalPoints": "157.40",
@@ -1022,8 +1001,7 @@
               ],
               "Rank": 12,
               "NAT": "USA",
-              "FullName": "KNIGHT Kyndal",
-              "Gender": 1
+              "FullName": "KNIGHT Kyndal"
             }
           ]
         }
@@ -1056,8 +1034,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "JIANG Linjing",
-              "Gender": 1
+              "FullName": "JIANG Linjing"
             },
             {
               "TotalPoints": "319.20",
@@ -1080,8 +1057,7 @@
               ],
               "Rank": 2,
               "NAT": "RUS",
-              "FullName": "KONANYKHINA Anna",
-              "Gender": 1
+              "FullName": "KONANYKHINA Anna"
             },
             {
               "TotalPoints": "317.00",
@@ -1104,8 +1080,7 @@
               ],
               "Rank": 3,
               "NAT": "GER",
-              "FullName": "PFEIF Pauline Alexandra",
-              "Gender": 1
+              "FullName": "PFEIF Pauline Alexandra"
             },
             {
               "TotalPoints": "292.65",
@@ -1128,8 +1103,7 @@
               ],
               "Rank": 4,
               "NAT": "USA",
-              "FullName": "NIDAY Ellireese",
-              "Gender": 1
+              "FullName": "NIDAY Ellireese"
             }
           ]
         },
@@ -1148,8 +1122,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "JIANG Linjing",
-              "Gender": 1
+              "FullName": "JIANG Linjing"
             },
             {
               "TotalPoints": "350.60",
@@ -1163,8 +1136,7 @@
               ],
               "Rank": 1,
               "NAT": "GER",
-              "FullName": "PFEIF Pauline Alexandra",
-              "Gender": 1
+              "FullName": "PFEIF Pauline Alexandra"
             },
             {
               "TotalPoints": "342.10",
@@ -1178,8 +1150,7 @@
               ],
               "Rank": 2,
               "NAT": "RUS",
-              "FullName": "KONANYKHINA Anna",
-              "Gender": 1
+              "FullName": "KONANYKHINA Anna"
             },
             {
               "TotalPoints": "347.55",
@@ -1193,8 +1164,7 @@
               ],
               "Rank": 2,
               "NAT": "USA",
-              "FullName": "NIDAY Ellireese",
-              "Gender": 1
+              "FullName": "NIDAY Ellireese"
             },
             {
               "TotalPoints": "301.35",
@@ -1208,8 +1178,7 @@
               ],
               "Rank": 3,
               "NAT": "CAN",
-              "FullName": "MILLER Kate",
-              "Gender": 1
+              "FullName": "MILLER Kate"
             },
             {
               "TotalPoints": "326.55",
@@ -1223,8 +1192,7 @@
               ],
               "Rank": 3,
               "NAT": "JPN",
-              "FullName": "KANETO Rin",
-              "Gender": 1
+              "FullName": "KANETO Rin"
             }
           ]
         },
@@ -1246,8 +1214,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "JIANG Linjing",
-              "Gender": 1
+              "FullName": "JIANG Linjing"
             },
             {
               "TotalPoints": "226.90",
@@ -1264,8 +1231,7 @@
               ],
               "Rank": 2,
               "NAT": "RUS",
-              "FullName": "KONANYKHINA Anna",
-              "Gender": 1
+              "FullName": "KONANYKHINA Anna"
             },
             {
               "TotalPoints": "220.80",
@@ -1282,8 +1248,7 @@
               ],
               "Rank": 3,
               "NAT": "PRK",
-              "FullName": "JO Jin Mi",
-              "Gender": 1
+              "FullName": "JO Jin Mi"
             },
             {
               "TotalPoints": "220.40",
@@ -1300,8 +1265,7 @@
               ],
               "Rank": 4,
               "NAT": "USA",
-              "FullName": "NIDAY Ellireese",
-              "Gender": 1
+              "FullName": "NIDAY Ellireese"
             },
             {
               "TotalPoints": "216.10",
@@ -1318,8 +1282,7 @@
               ],
               "Rank": 5,
               "NAT": "GER",
-              "FullName": "PFEIF Pauline Alexandra",
-              "Gender": 1
+              "FullName": "PFEIF Pauline Alexandra"
             },
             {
               "TotalPoints": "210.90",
@@ -1336,8 +1299,7 @@
               ],
               "Rank": 6,
               "NAT": "CAN",
-              "FullName": "FUNG Katelyn",
-              "Gender": 1
+              "FullName": "FUNG Katelyn"
             },
             {
               "TotalPoints": "209.60",
@@ -1354,8 +1316,7 @@
               ],
               "Rank": 7,
               "NAT": "AUS",
-              "FullName": "COLE Ellie",
-              "Gender": 1
+              "FullName": "COLE Ellie"
             },
             {
               "TotalPoints": "200.40",
@@ -1372,8 +1333,7 @@
               ],
               "Rank": 8,
               "NAT": "CAN",
-              "FullName": "MILLER Kate",
-              "Gender": 1
+              "FullName": "MILLER Kate"
             },
             {
               "TotalPoints": "193.50",
@@ -1390,8 +1350,7 @@
               ],
               "Rank": 9,
               "NAT": "JPN",
-              "FullName": "KANETO Rin",
-              "Gender": 1
+              "FullName": "KANETO Rin"
             },
             {
               "TotalPoints": "179.90",
@@ -1408,8 +1367,7 @@
               ],
               "Rank": 10,
               "NAT": "MEX",
-              "FullName": "CUEVA LOBATO Suri Zoe",
-              "Gender": 1
+              "FullName": "CUEVA LOBATO Suri Zoe"
             },
             {
               "TotalPoints": "174.40",
@@ -1426,8 +1384,7 @@
               ],
               "Rank": 11,
               "NAT": "ITA",
-              "FullName": "JODOIN DI MARIA Sarah",
-              "Gender": 1
+              "FullName": "JODOIN DI MARIA Sarah"
             },
             {
               "TotalPoints": "167.70",
@@ -1444,8 +1401,7 @@
               ],
               "Rank": 12,
               "NAT": "ESP",
-              "FullName": "CARVAJAL Ana",
-              "Gender": 1
+              "FullName": "CARVAJAL Ana"
             }
           ]
         }
@@ -1478,8 +1434,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "CHEN Jia / CHEN Yiwen",
-              "Gender": 1
+              "FullName": "CHEN Jia / CHEN Yiwen"
             },
             {
               "TotalPoints": "299.94",
@@ -1502,8 +1457,7 @@
               ],
               "Rank": 2,
               "NAT": "AUS",
-              "FullName": "KEENEY Maddison / KOLOI Alysha",
-              "Gender": 1
+              "FullName": "KEENEY Maddison / KOLOI Alysha"
             },
             {
               "TotalPoints": "294.60",
@@ -1526,8 +1480,7 @@
               ],
               "Rank": 3,
               "NAT": "GBR",
-              "FullName": "MEW JENSEN Scarlett / HARPER Yasmin",
-              "Gender": 1
+              "FullName": "MEW JENSEN Scarlett / HARPER Yasmin"
             },
             {
               "TotalPoints": "276.15",
@@ -1550,8 +1503,7 @@
               ],
               "Rank": 4,
               "NAT": "USA",
-              "FullName": "KWONG Anna / VERZYL Sophia",
-              "Gender": 1
+              "FullName": "KWONG Anna / VERZYL Sophia"
             },
             {
               "TotalPoints": "273.63",
@@ -1574,8 +1526,7 @@
               ],
               "Rank": 5,
               "NAT": "MEX",
-              "FullName": "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil",
-              "Gender": 1
+              "FullName": "CUEVA LOBATO Mia Zazil / CUEVA LOBATO Lia Yatzil"
             },
             {
               "TotalPoints": "273.00",
@@ -1598,8 +1549,7 @@
               ],
               "Rank": 6,
               "NAT": "RUS",
-              "FullName": "TRIFONOVA Nadezhda / KLIUEVA Uliana",
-              "Gender": 1
+              "FullName": "TRIFONOVA Nadezhda / KLIUEVA Uliana"
             },
             {
               "TotalPoints": "262.50",
@@ -1622,8 +1572,7 @@
               ],
               "Rank": 7,
               "NAT": "UKR",
-              "FullName": "BOCHEK Kseniia / KARNAFEL Diana",
-              "Gender": 1
+              "FullName": "BOCHEK Kseniia / KARNAFEL Diana"
             },
             {
               "TotalPoints": "250.98",
@@ -1646,8 +1595,7 @@
               ],
               "Rank": 8,
               "NAT": "CAN",
-              "FullName": "VALLEE Mia / JASMIN Amelie-Laura",
-              "Gender": 1
+              "FullName": "VALLEE Mia / JASMIN Amelie-Laura"
             }
           ]
         }
@@ -1680,8 +1628,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "CHEN Yuxi / LU Wei",
-              "Gender": 1
+              "FullName": "CHEN Yuxi / LU Wei"
             },
             {
               "TotalPoints": "321.30",
@@ -1704,8 +1651,7 @@
               ],
               "Rank": 2,
               "NAT": "PRK",
-              "FullName": "JO Jin Mi / KIM Mi Rae",
-              "Gender": 1
+              "FullName": "JO Jin Mi / KIM Mi Rae"
             },
             {
               "TotalPoints": "297.12",
@@ -1728,8 +1674,7 @@
               ],
               "Rank": 3,
               "NAT": "AUS",
-              "FullName": "PUCKERIDGE Milly / COLE Ellie",
-              "Gender": 1
+              "FullName": "PUCKERIDGE Milly / COLE Ellie"
             },
             {
               "TotalPoints": "296.04",
@@ -1752,8 +1697,7 @@
               ],
               "Rank": 4,
               "NAT": "MEX",
-              "FullName": "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela",
-              "Gender": 1
+              "FullName": "ESTUDILLO TORRES Alejandra / AGUNDEZ GARCIA Gabriela"
             },
             {
               "TotalPoints": "284.28",
@@ -1776,8 +1720,7 @@
               ],
               "Rank": 5,
               "NAT": "RUS",
-              "FullName": "KAZANTSEVA Viktoria / KONANYKHINA Anna",
-              "Gender": 1
+              "FullName": "KAZANTSEVA Viktoria / KONANYKHINA Anna"
             },
             {
               "TotalPoints": "278.46",
@@ -1800,8 +1743,7 @@
               ],
               "Rank": 6,
               "NAT": "UKR",
-              "FullName": "VYSTAVKINA Sofiia / BAILO Kseniia",
-              "Gender": 1
+              "FullName": "VYSTAVKINA Sofiia / BAILO Kseniia"
             },
             {
               "TotalPoints": "275.82",
@@ -1824,8 +1766,7 @@
               ],
               "Rank": 7,
               "NAT": "CAN",
-              "FullName": "MILLER Kate / FUNG Katelyn",
-              "Gender": 1
+              "FullName": "MILLER Kate / FUNG Katelyn"
             },
             {
               "TotalPoints": "243.60",
@@ -1848,8 +1789,7 @@
               ],
               "Rank": 8,
               "NAT": "GER",
-              "FullName": "WASSEN Elena / PFEIF Pauline Alexandra",
-              "Gender": 1
+              "FullName": "WASSEN Elena / PFEIF Pauline Alexandra"
             }
           ]
         }
@@ -1885,8 +1825,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "WANG Zongyuan",
-              "Gender": 0
+              "FullName": "WANG Zongyuan"
             },
             {
               "TotalPoints": "500.50",
@@ -1912,8 +1851,7 @@
               ],
               "Rank": 2,
               "NAT": "CHN",
-              "FullName": "ZHENG Jiuyuan",
-              "Gender": 0
+              "FullName": "ZHENG Jiuyuan"
             },
             {
               "TotalPoints": "480.50",
@@ -1939,8 +1877,7 @@
               ],
               "Rank": 3,
               "NAT": "MEX",
-              "FullName": "OLVERA IBARRA Osmar",
-              "Gender": 0
+              "FullName": "OLVERA IBARRA Osmar"
             },
             {
               "TotalPoints": "443.20",
@@ -1966,8 +1903,7 @@
               ],
               "Rank": 4,
               "NAT": "FRA",
-              "FullName": "BOUYER Jules",
-              "Gender": 0
+              "FullName": "BOUYER Jules"
             }
           ]
         },
@@ -1989,8 +1925,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "ZHENG Jiuyuan",
-              "Gender": 0
+              "FullName": "ZHENG Jiuyuan"
             },
             {
               "TotalPoints": "530.10",
@@ -2007,8 +1942,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "WANG Zongyuan",
-              "Gender": 0
+              "FullName": "WANG Zongyuan"
             },
             {
               "TotalPoints": "444.60",
@@ -2025,8 +1959,7 @@
               ],
               "Rank": 2,
               "NAT": "FRA",
-              "FullName": "BOUYER Jules",
-              "Gender": 0
+              "FullName": "BOUYER Jules"
             },
             {
               "TotalPoints": "513.95",
@@ -2043,8 +1976,7 @@
               ],
               "Rank": 2,
               "NAT": "MEX",
-              "FullName": "OLVERA IBARRA Osmar",
-              "Gender": 0
+              "FullName": "OLVERA IBARRA Osmar"
             },
             {
               "TotalPoints": "386.45",
@@ -2061,8 +1993,7 @@
               ],
               "Rank": 3,
               "NAT": "CAN",
-              "FullName": "PAUL Carson",
-              "Gender": 0
+              "FullName": "PAUL Carson"
             },
             {
               "TotalPoints": "399.30",
@@ -2079,8 +2010,7 @@
               ],
               "Rank": 3,
               "NAT": "COL",
-              "FullName": "URIBE BERMUDEZ Luis Felipe",
-              "Gender": 0
+              "FullName": "URIBE BERMUDEZ Luis Felipe"
             }
           ]
         },
@@ -2102,8 +2032,7 @@
               ],
               "Rank": 1,
               "NAT": "MEX",
-              "FullName": "OLVERA IBARRA Osmar",
-              "Gender": 0
+              "FullName": "OLVERA IBARRA Osmar"
             },
             {
               "TotalPoints": "257.55",
@@ -2120,8 +2049,7 @@
               ],
               "Rank": 2,
               "NAT": "CHN",
-              "FullName": "WANG Zongyuan",
-              "Gender": 0
+              "FullName": "WANG Zongyuan"
             },
             {
               "TotalPoints": "251.40",
@@ -2138,8 +2066,7 @@
               ],
               "Rank": 3,
               "NAT": "CHN",
-              "FullName": "ZHENG Jiuyuan",
-              "Gender": 0
+              "FullName": "ZHENG Jiuyuan"
             },
             {
               "TotalPoints": "245.35",
@@ -2156,8 +2083,7 @@
               ],
               "Rank": 4,
               "NAT": "MEX",
-              "FullName": "CELAYA HERNANDEZ Juan Manuel",
-              "Gender": 0
+              "FullName": "CELAYA HERNANDEZ Juan Manuel"
             },
             {
               "TotalPoints": "233.65",
@@ -2174,8 +2100,7 @@
               ],
               "Rank": 5,
               "NAT": "FRA",
-              "FullName": "BOUYER Jules",
-              "Gender": 0
+              "FullName": "BOUYER Jules"
             },
             {
               "TotalPoints": "233.40",
@@ -2192,8 +2117,7 @@
               ],
               "Rank": 6,
               "NAT": "GBR",
-              "FullName": "HASLAM Ross",
-              "Gender": 0
+              "FullName": "HASLAM Ross"
             },
             {
               "TotalPoints": "204.30",
@@ -2210,8 +2134,7 @@
               ],
               "Rank": 7,
               "NAT": "RUS",
-              "FullName": "SHLEIKHER Nikita",
-              "Gender": 0
+              "FullName": "SHLEIKHER Nikita"
             },
             {
               "TotalPoints": "197.00",
@@ -2228,8 +2151,7 @@
               ],
               "Rank": 8,
               "NAT": "CAN",
-              "FullName": "PAUL Carson",
-              "Gender": 0
+              "FullName": "PAUL Carson"
             },
             {
               "TotalPoints": "195.55",
@@ -2246,8 +2168,7 @@
               ],
               "Rank": 9,
               "NAT": "USA",
-              "FullName": "RYAN Jack",
-              "Gender": 0
+              "FullName": "RYAN Jack"
             },
             {
               "TotalPoints": "190.15",
@@ -2264,8 +2185,7 @@
               ],
               "Rank": 10,
               "NAT": "CAN",
-              "FullName": "ZSOMBOR-MURRAY Nathan",
-              "Gender": 0
+              "FullName": "ZSOMBOR-MURRAY Nathan"
             },
             {
               "TotalPoints": "181.30",
@@ -2282,8 +2202,7 @@
               ],
               "Rank": 11,
               "NAT": "COL",
-              "FullName": "URIBE BERMUDEZ Luis Felipe",
-              "Gender": 0
+              "FullName": "URIBE BERMUDEZ Luis Felipe"
             },
             {
               "TotalPoints": "168.80",
@@ -2300,8 +2219,7 @@
               ],
               "Rank": 12,
               "NAT": "GER",
-              "FullName": "MASSENBERG Lou Noel Guy",
-              "Gender": 0
+              "FullName": "MASSENBERG Lou Noel Guy"
             }
           ]
         }
@@ -2337,8 +2255,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "BAI Yuming",
-              "Gender": 0
+              "FullName": "BAI Yuming"
             },
             {
               "TotalPoints": "538.15",
@@ -2364,8 +2281,7 @@
               ],
               "Rank": 2,
               "NAT": "MEX",
-              "FullName": "WILLARS VALDEZ Randal",
-              "Gender": 0
+              "FullName": "WILLARS VALDEZ Randal"
             },
             {
               "TotalPoints": "506.80",
@@ -2391,8 +2307,7 @@
               ],
               "Rank": 3,
               "NAT": "CHN",
-              "FullName": "LIAN Junjie",
-              "Gender": 0
+              "FullName": "LIAN Junjie"
             },
             {
               "TotalPoints": "480.70",
@@ -2418,8 +2333,7 @@
               ],
               "Rank": 4,
               "NAT": "AUS",
-              "FullName": "ROUSSEAU Cassiel",
-              "Gender": 0
+              "FullName": "ROUSSEAU Cassiel"
             }
           ]
         },
@@ -2441,8 +2355,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "BAI Yuming",
-              "Gender": 0
+              "FullName": "BAI Yuming"
             },
             {
               "TotalPoints": "530.05",
@@ -2459,8 +2372,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "LIAN Junjie",
-              "Gender": 0
+              "FullName": "LIAN Junjie"
             },
             {
               "TotalPoints": "480.60",
@@ -2477,8 +2389,7 @@
               ],
               "Rank": 2,
               "NAT": "AUS",
-              "FullName": "ROUSSEAU Cassiel",
-              "Gender": 0
+              "FullName": "ROUSSEAU Cassiel"
             },
             {
               "TotalPoints": "494.30",
@@ -2495,8 +2406,7 @@
               ],
               "Rank": 2,
               "NAT": "MEX",
-              "FullName": "WILLARS VALDEZ Randal",
-              "Gender": 0
+              "FullName": "WILLARS VALDEZ Randal"
             },
             {
               "TotalPoints": "438.00",
@@ -2513,8 +2423,7 @@
               ],
               "Rank": 3,
               "NAT": "GBR",
-              "FullName": "MCCABE Euan",
-              "Gender": 0
+              "FullName": "MCCABE Euan"
             },
             {
               "TotalPoints": "443.90",
@@ -2531,8 +2440,7 @@
               ],
               "Rank": 3,
               "NAT": "UKR",
-              "FullName": "SEREDA Oleksii",
-              "Gender": 0
+              "FullName": "SEREDA Oleksii"
             }
           ]
         },
@@ -2554,8 +2462,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "LIAN Junjie",
-              "Gender": 0
+              "FullName": "LIAN Junjie"
             },
             {
               "TotalPoints": "263.10",
@@ -2572,8 +2479,7 @@
               ],
               "Rank": 2,
               "NAT": "CHN",
-              "FullName": "BAI Yuming",
-              "Gender": 0
+              "FullName": "BAI Yuming"
             },
             {
               "TotalPoints": "260.10",
@@ -2590,8 +2496,7 @@
               ],
               "Rank": 3,
               "NAT": "RUS",
-              "FullName": "TERNOVOI Ruslan",
-              "Gender": 0
+              "FullName": "TERNOVOI Ruslan"
             },
             {
               "TotalPoints": "258.15",
@@ -2608,8 +2513,7 @@
               ],
               "Rank": 4,
               "NAT": "MEX",
-              "FullName": "WILLARS VALDEZ Randal",
-              "Gender": 0
+              "FullName": "WILLARS VALDEZ Randal"
             },
             {
               "TotalPoints": "255.10",
@@ -2626,8 +2530,7 @@
               ],
               "Rank": 5,
               "NAT": "UKR",
-              "FullName": "HRYTSENKO Mark",
-              "Gender": 0
+              "FullName": "HRYTSENKO Mark"
             },
             {
               "TotalPoints": "241.80",
@@ -2644,8 +2547,7 @@
               ],
               "Rank": 6,
               "NAT": "UKR",
-              "FullName": "SEREDA Oleksii",
-              "Gender": 0
+              "FullName": "SEREDA Oleksii"
             },
             {
               "TotalPoints": "233.80",
@@ -2662,8 +2564,7 @@
               ],
               "Rank": 7,
               "NAT": "GBR",
-              "FullName": "MCCABE Euan",
-              "Gender": 0
+              "FullName": "MCCABE Euan"
             },
             {
               "TotalPoints": "232.80",
@@ -2680,8 +2581,7 @@
               ],
               "Rank": 8,
               "NAT": "AUS",
-              "FullName": "ROUSSEAU Cassiel",
-              "Gender": 0
+              "FullName": "ROUSSEAU Cassiel"
             },
             {
               "TotalPoints": "217.30",
@@ -2698,8 +2598,7 @@
               ],
               "Rank": 9,
               "NAT": "MEX",
-              "FullName": "BERLIN REYES Kevin",
-              "Gender": 0
+              "FullName": "BERLIN REYES Kevin"
             },
             {
               "TotalPoints": "200.20",
@@ -2716,8 +2615,7 @@
               ],
               "Rank": 10,
               "NAT": "CAN",
-              "FullName": "CULLEN Matt",
-              "Gender": 0
+              "FullName": "CULLEN Matt"
             },
             {
               "TotalPoints": "199.10",
@@ -2734,8 +2632,7 @@
               ],
               "Rank": 11,
               "NAT": "AUS",
-              "FullName": "MERCIECA Jonah",
-              "Gender": 0
+              "FullName": "MERCIECA Jonah"
             },
             {
               "TotalPoints": "189.05",
@@ -2752,8 +2649,7 @@
               ],
               "Rank": 12,
               "NAT": "CAN",
-              "FullName": "TESSIER Benjamin",
-              "Gender": 0
+              "FullName": "TESSIER Benjamin"
             }
           ]
         }
@@ -2789,8 +2685,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "WANG Zongyuan / ZHENG Jiuyuan",
-              "Gender": 0
+              "FullName": "WANG Zongyuan / ZHENG Jiuyuan"
             },
             {
               "TotalPoints": "420.57",
@@ -2816,8 +2711,7 @@
               ],
               "Rank": 2,
               "NAT": "MEX",
-              "FullName": "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar",
-              "Gender": 0
+              "FullName": "CELAYA HERNANDEZ Juan Manuel / OLVERA IBARRA Osmar"
             },
             {
               "TotalPoints": "406.20",
@@ -2843,8 +2737,7 @@
               ],
               "Rank": 3,
               "NAT": "GBR",
-              "FullName": "HARDING Anthony / LAUGHER Jack",
-              "Gender": 0
+              "FullName": "HARDING Anthony / LAUGHER Jack"
             },
             {
               "TotalPoints": "396.54",
@@ -2870,8 +2763,7 @@
               ],
               "Rank": 4,
               "NAT": "UKR",
-              "FullName": "BOLIUKH Kirill / OLIFERCHYK Stanislav",
-              "Gender": 0
+              "FullName": "BOLIUKH Kirill / OLIFERCHYK Stanislav"
             },
             {
               "TotalPoints": "389.88",
@@ -2897,8 +2789,7 @@
               ],
               "Rank": 5,
               "NAT": "CAN",
-              "FullName": "ZSOMBOR-MURRAY Nathan / PAUL Carson",
-              "Gender": 0
+              "FullName": "ZSOMBOR-MURRAY Nathan / PAUL Carson"
             },
             {
               "TotalPoints": "383.55",
@@ -2924,8 +2815,7 @@
               ],
               "Rank": 6,
               "NAT": "GER",
-              "FullName": "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy",
-              "Gender": 0
+              "FullName": "SCHAUER Jonathan Gisbert / MASSENBERG Lou Noel Guy"
             },
             {
               "TotalPoints": "378.51",
@@ -2951,8 +2841,7 @@
               ],
               "Rank": 7,
               "NAT": "JPN",
-              "FullName": "IKUMA Senri / SUYAMA Haruki",
-              "Gender": 0
+              "FullName": "IKUMA Senri / SUYAMA Haruki"
             },
             {
               "TotalPoints": "376.26",
@@ -2978,8 +2867,7 @@
               ],
               "Rank": 8,
               "NAT": "ITA",
-              "FullName": "MARSAGLIA Lorenzo / TOCCI Giovanni",
-              "Gender": 0
+              "FullName": "MARSAGLIA Lorenzo / TOCCI Giovanni"
             }
           ]
         }
@@ -3015,8 +2903,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "ZHAO Renjie / YANG Zhihao",
-              "Gender": 0
+              "FullName": "ZHAO Renjie / YANG Zhihao"
             },
             {
               "TotalPoints": "404.28",
@@ -3042,8 +2929,7 @@
               ],
               "Rank": 2,
               "NAT": "UKR",
-              "FullName": "HRYTSENKO Mark / SEREDA Oleksii",
-              "Gender": 0
+              "FullName": "HRYTSENKO Mark / SEREDA Oleksii"
             },
             {
               "TotalPoints": "403.02",
@@ -3069,8 +2955,7 @@
               ],
               "Rank": 3,
               "NAT": "MEX",
-              "FullName": "BERLIN REYES Kevin / WILLARS VALDEZ Randal",
-              "Gender": 0
+              "FullName": "BERLIN REYES Kevin / WILLARS VALDEZ Randal"
             },
             {
               "TotalPoints": "377.34",
@@ -3096,8 +2981,7 @@
               ],
               "Rank": 4,
               "NAT": "GBR",
-              "FullName": "MCCABE Euan / CUTMORE Ben",
-              "Gender": 0
+              "FullName": "MCCABE Euan / CUTMORE Ben"
             },
             {
               "TotalPoints": "375.42",
@@ -3123,8 +3007,7 @@
               ],
               "Rank": 5,
               "NAT": "CAN",
-              "FullName": "CULLEN Matt / TESSIER Benjamin",
-              "Gender": 0
+              "FullName": "CULLEN Matt / TESSIER Benjamin"
             },
             {
               "TotalPoints": "370.74",
@@ -3150,8 +3033,7 @@
               ],
               "Rank": 6,
               "NAT": "ITA",
-              "FullName": "GIOVANNINI Riccardo / CONTE Simone",
-              "Gender": 0
+              "FullName": "GIOVANNINI Riccardo / CONTE Simone"
             },
             {
               "TotalPoints": "368.01",
@@ -3177,8 +3059,7 @@
               ],
               "Rank": 7,
               "NAT": "AUS",
-              "FullName": "MERCIECA Jonah / ROUSSEAU Cassiel",
-              "Gender": 0
+              "FullName": "MERCIECA Jonah / ROUSSEAU Cassiel"
             },
             {
               "TotalPoints": "354.57",
@@ -3204,8 +3085,7 @@
               ],
               "Rank": 8,
               "NAT": "RUS",
-              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan",
-              "Gender": 0
+              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan"
             }
           ]
         }
@@ -3247,8 +3127,7 @@
               ],
               "Rank": 1,
               "NAT": "CHN",
-              "FullName": "LIU Chengzan / LIN Shan / LU Wei / BAI Yuming",
-              "Gender": 2
+              "FullName": "LIU Chengzan / LIN Shan / LU Wei / BAI Yuming"
             },
             {
               "TotalPoints": "422.50",
@@ -3280,8 +3159,7 @@
               ],
               "Rank": 2,
               "NAT": "MEX",
-              "FullName": "VAZQUEZ MONTANO Aranza / ESTUDILLO TORRES Alejandra / OLVERA IBARRA Osmar / WILLARS VALDEZ Randal",
-              "Gender": 2
+              "FullName": "VAZQUEZ MONTANO Aranza / ESTUDILLO TORRES Alejandra / OLVERA IBARRA Osmar / WILLARS VALDEZ Randal"
             },
             {
               "TotalPoints": "410.45",
@@ -3313,8 +3191,7 @@
               ],
               "Rank": 3,
               "NAT": "AUS",
-              "FullName": "KEENEY Maddison / COLE Ellie / ROUSSEAU Cassiel",
-              "Gender": 2
+              "FullName": "KEENEY Maddison / COLE Ellie / ROUSSEAU Cassiel"
             },
             {
               "TotalPoints": "408.50",
@@ -3346,8 +3223,7 @@
               ],
               "Rank": 4,
               "NAT": "CAN",
-              "FullName": "CULLEN Matt / VALLEE Mia / ZSOMBOR-MURRAY Nathan / FUNG Katelyn",
-              "Gender": 2
+              "FullName": "CULLEN Matt / VALLEE Mia / ZSOMBOR-MURRAY Nathan / FUNG Katelyn"
             },
             {
               "TotalPoints": "405.20",
@@ -3379,8 +3255,7 @@
               ],
               "Rank": 5,
               "NAT": "RUS",
-              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan / KLIUEVA Uliana / KAZANTSEVA Viktoria",
-              "Gender": 2
+              "FullName": "SHLEIKHER Nikita / TERNOVOI Ruslan / KLIUEVA Uliana / KAZANTSEVA Viktoria"
             },
             {
               "TotalPoints": "401.60",
@@ -3412,8 +3287,7 @@
               ],
               "Rank": 6,
               "NAT": "UKR",
-              "FullName": "BOCHEK Kseniia / BOLIUKH Kirill / SEREDA Oleksii / BAILO Kseniia",
-              "Gender": 2
+              "FullName": "BOCHEK Kseniia / BOLIUKH Kirill / SEREDA Oleksii / BAILO Kseniia"
             },
             {
               "TotalPoints": "366.60",
@@ -3445,8 +3319,7 @@
               ],
               "Rank": 7,
               "NAT": "ITA",
-              "FullName": "GIOVANNINI Riccardo / JODOIN DI MARIA Sarah / CONTE Simone / PIZZINI Elisa",
-              "Gender": 2
+              "FullName": "GIOVANNINI Riccardo / JODOIN DI MARIA Sarah / CONTE Simone / PIZZINI Elisa"
             },
             {
               "TotalPoints": "360.70",
@@ -3478,8 +3351,7 @@
               ],
               "Rank": 8,
               "NAT": "USA",
-              "FullName": "MCAFEE Sophia / RYAN Jack / VERZYL Sophia / TYLER Carson",
-              "Gender": 2
+              "FullName": "MCAFEE Sophia / RYAN Jack / VERZYL Sophia / TYLER Carson"
             }
           ]
         }

@@ -17,8 +17,6 @@ public class Result {
     private String country;
     @JsonProperty("FullName")
     private String fullName;
-    @JsonProperty("Gender")
-    private Integer gender;
 
     public String getTotalPoints() {
         return totalPoints;
@@ -49,11 +47,5 @@ public class Result {
     }
     public void setFullName(String fullName) {
         this.fullName = fullName;
-    }
-    public Integer getGender() {
-        return gender;
-    }
-    public void setGender(Integer gender) {
-        this.gender = gender;
     }
 }

@@ -104,9 +104,6 @@ public class SnapshotValidator {
                                     else if (result.getTotalPoints() == null) {
                                         throw new InvalidDataException("Exists result which has empty totalPoints");
                                     }
-                                    else if (result.getGender() == null) {
-                                        throw new InvalidDataException("Exists result which has null gender");
-                                    }
                                     else if (result.getRank() == null) {
                                         throw new InvalidDataException("Exists result which has null rank");
                                     }

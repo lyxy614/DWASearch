@@ -41,3 +41,5 @@ build/
 
 ### Others ###
 dependency-reduced-pom.xml
+events.json
+PLAN.md
