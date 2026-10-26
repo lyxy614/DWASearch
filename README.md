@@ -12,7 +12,7 @@
 
 ## 二、构建、运行和测试命令
 
-以下命令均需要在当前目录下执行
+以下命令均需要在项目根目录下执行
 
 - 测试
 ```powershell
@@ -33,6 +33,18 @@ input.txt和output.txt也可以替换成其他的文本文件。
 - 抓取脚本运行（需要更新数据时）
 ```powershell
 java -cp target/DWASearch.jar com.dwasearch.crawler.DataCrawler
+```
+
+- `Main-Class`的配置方式：
+在pom.xml的shade插件中指定
+```xml
+<configuration>
+    <transformers>
+        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+            <mainClass>com.dwasearch.query.DWASearch</mainClass>
+        </transformer>
+    </transformers>
+</configuration>
 ```
 
 ## 三、数据来源
@@ -71,6 +83,8 @@ java -cp target/DWASearch.jar com.dwasearch.crawler.DataCrawler
 抓取到的数据包含第九个项目（Mixed 3m & 10m Team），本项目只查询规定的八个项目，查询时忽略第九项（无法查询）。
 
 ## 四、已完成功能
+在input.txt中写入下表中的命令，可以在output.txt中输出对应的查询结果，一次可以执行多条查询命令。
+
 | 命令            | 功能                          |
 |---------------|-----------------------------|
 | players       | 输出全部选手信息，按国籍升序、姓氏升序         |
@@ -91,7 +105,7 @@ men 10m synchronised
 - `players` 后面只能跟零个或多个空格；跟任何非空白字符（如 `players extra`）输出 Error。
 - `result` 后面必须跟若干个空格再接项目名，项目名称后不得再跟空格，内部也不允许有多余空格；`result` 单独出现、`result sss`、`result women 3m springboard details` 均输出 N/A。
 - 重复命令会再次输出，不会去重。
-- 空行被忽略；空文件产生空输出。
+- 一行只能写一条命令；空行被忽略；空文件产生空输出。
 - 输入输出统一使用 UTF-8，输出换行使用 `\n`。
 
 ## 五、项目结构

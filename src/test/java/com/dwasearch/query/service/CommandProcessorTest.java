@@ -169,11 +169,12 @@ class CommandProcessorTest {
 
     @Test
     @DisplayName("多余空格约定")
-    //players后可加任意数量空格
+    //players后可加任意数量空格，但不能有其他额外字符
     //result与项目之间可多空格，项目名称内部和之后均不能含有多余空格
     void process_blanks() throws IOException{
         List<String> commandList = List.of(
                 "players  ",
+                "players extra",
                 "result  men 10m platform",
                 "result men  10m platform",
                 "result men 10m platform "
@@ -181,6 +182,7 @@ class CommandProcessorTest {
 
         String actualOutput = executeAndGetOutput(coreModule, commandList);
         String expectedOutput = TestData.loadResourceAsString("standard_players.txt")
+                + "Error\n-----\n"
                 + TestData.loadResourceAsString("standard_Men's 10m Platform.txt")
                 + "N/A\n-----\n" + "N/A\n-----\n";
         assertEquals(expectedOutput, actualOutput);
